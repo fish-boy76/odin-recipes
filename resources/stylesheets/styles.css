@@ -1,7 +1,8 @@
 body {
     background: rgb(0, 0, 50);
     color: #fff;
-    font-size: 1.15em;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
