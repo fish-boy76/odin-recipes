@@ -18,6 +18,10 @@ h2 {
     border-top: 1px solid rgb(205, 205, 205);
 }
 
+a {
+    color: #A64469;
+}
+
 li {
     padding-top: 0.75em;
 }
@@ -29,8 +33,21 @@ img {
     border-radius: 8px
 }
 
-a {
-    color: #A64469;
+.home {
+    width: 40%;
+}
+
+.recipe {
+    width: 60%;
+}
+
+.home, .recipe {
+    background: #fff;
+    margin: 3em auto;
+    padding: 24px;
+    border: 4px solid #532234;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
 }
 
 .homeButton {
@@ -38,14 +55,4 @@ a {
     text-align: center;
     padding-top: 1em;
     border-top: 1px solid rgb(205, 205, 205);
-}
-
-.content {
-    background: #fff;
-    width: 60%;
-    margin: 3em auto;
-    padding: 24px;
-    border: 4px solid #532234;
-    border-radius: 16px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
 }
